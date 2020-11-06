@@ -1,5 +1,7 @@
 # Reverse a String
 
+**Fork and then clone me!**
+
 For this task, you'll need to reverse a string. Your method will receive one argument, a string, and be expected to output that string with its letters in reverse order.
 
 ```
