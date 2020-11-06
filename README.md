@@ -25,3 +25,29 @@ Use the language of your choosing. We've included starter files for some languag
 5. Code!
 
 **_And remember, don't run our tests until you've passed your own!_**
+
+## How to run your own tests
+
+### Ruby
+
+1. `cd` into the ruby folder
+2. `ruby <filename>.rb`
+
+### JavaScript
+
+1. `cd` into the javascript folder
+2. `node <filename>.js`
+
+## How to run our tests
+
+### Ruby
+
+1. `cd` into the ruby folder
+2. `bundle install`
+3. `rspec`
+
+### JavaScript
+
+1. `cd` into the javascript folder
+2. `npm i`
+3. `npm test`
