@@ -1,4 +1,4 @@
-# Reverse a String
+# Day 1: Reverse a String
 
 **Fork and then clone me!**
 
