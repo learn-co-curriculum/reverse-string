@@ -5,7 +5,7 @@ function reverseString(str) {
 if (require.main === module) {
   // add your own tests in here
   console.log("Expecting: 'ih'");
-  console.log(reverseString('ih'));
+  console.log(reverseString('hi'));
 
   console.log("");
 
