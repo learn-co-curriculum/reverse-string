@@ -5,12 +5,12 @@ function reverseString(str) {
 if (require.main === module) {
   // add your own tests in here
   console.log("Expecting: 'ih'");
-  console.log(reverseString('ih'));
+  console.log("=>", reverseString('ih'));
 
   console.log("");
 
   console.log("Expecting: 'ybabtac'");
-  console.log(reverseString('catbaby'));
+  console.log("=>", reverseString('catbaby'));
 }
 
 module.exports = reverseString;
