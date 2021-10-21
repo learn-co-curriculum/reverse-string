@@ -1,5 +1,9 @@
 function reverseString(str) {
-  // type your code here
+  let res = "";
+  for (let end = str.length-1; end >= 0; end--) {
+    res += str[end];
+  }
+  return res;
 }
 
 if (require.main === module) {
@@ -16,4 +20,12 @@ if (require.main === module) {
 module.exports = reverseString;
 
 // Please add your pseudocode to this file
+/** 
+ *  define three pointers
+ *  one points to the beginning
+ *  one points to the end
+ *  one is a holder/container for the switch
+ *  switch the characters
+ */ 
+
 // And a written explanation of your solution
