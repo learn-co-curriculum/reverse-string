@@ -1,9 +1,9 @@
-def reverse_string(str):
+def reverse_string(string):
 
     reversed_string = ""
 
-    for i in range(len(str)):
-        reversed_string += str[len(str) - 1 - i]
+    for i in range(len(string) - 1, -1, -1):
+        reversed_string += string[i]
 
     return reversed_string
 
